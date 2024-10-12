@@ -23,10 +23,10 @@ const Header = () =>
               <a href="#projects">Projects</a>
               <a href="#contact">Contact</a>
             </div>
-            <button className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded">
+            <a href="../../resume.pdf" className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded" download="udara-lakshan.pdf">
               Resume
               <MdOutlineFileDownload size={ 20 } />
-            </button>
+            </a>
           </>
         }
         <button className="md:hidden" type="button" onClick={ click }>
@@ -38,10 +38,10 @@ const Header = () =>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <button className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded">
+        <a href="../../resume.pdf" className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded" download="udara-lakshan.pdf">
           Resume
           <MdOutlineFileDownload size={ 20 } />
-        </button>
+        </a>
       </div> }
     </header>
   )
