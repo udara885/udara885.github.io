@@ -23,7 +23,7 @@ const Header = () =>
               <a href="#projects">Projects</a>
               <a href="#contact">Contact</a>
             </div>
-            <a href="https://drive.google.com/file/d/1GYd1gxLF3KOX-BWSpo2rM3yGrReIFJMw/view?usp=sharing" className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded">
+            <a href="https://drive.google.com/file/d/1GYd1gxLF3KOX-BWSpo2rM3yGrReIFJMw/view?usp=sharing" target="_blank" className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded">
               Resume
               <MdOutlineFileDownload size={ 20 } />
             </a>
@@ -38,7 +38,7 @@ const Header = () =>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a href="https://drive.google.com/file/d/1GYd1gxLF3KOX-BWSpo2rM3yGrReIFJMw/view?usp=sharing" className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded">
+        <a href="https://drive.google.com/file/d/1GYd1gxLF3KOX-BWSpo2rM3yGrReIFJMw/view?usp=sharing" target="_blank" className="flex h-14 py-4 px-5 items-center gap-2 bg-black text-white rounded">
           Resume
           <MdOutlineFileDownload size={ 20 } />
         </a>
