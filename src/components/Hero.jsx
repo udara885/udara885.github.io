@@ -166,11 +166,10 @@ const Hero = () =>
           <div className="text-3xl md:text-5xl">
             <h1>Hi! { "I'm" } <span className="font-extrabold">Udara Lakshan.</span></h1>
             <h1 className="font-extrabold">
-              Frontend <span className="text-stroke font-extrabold">Developer</span>
+              <span className="text-stroke font-extrabold font-serif md:font-sans">Frontend Developer</span>
             </h1>
             <h1>Based in <span className="font-extrabold">Sri Lanka.</span></h1>
           </div>
-          <p className="text-zinc-500 leading-6">I am driven by a passion for Frontend Web Development and a commitment to continuous learning. My goal is to contribute to innovative web projects that make a significant impact and to grow as a proficient frontend web developer. I am always eager to connect with like-minded professionals, explore new opportunities, and share knowledge.</p>
           <Socials />
         </div>
       </div>
