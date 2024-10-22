@@ -4,7 +4,7 @@ const Education = () =>
 {
     return (
         <div id="education" className="py-10 flex flex-col items-start self-stretch bg-black text-white w-full px-4 md:py-[3.75rem] md:px-20">
-            <div className="flex flex-col items-start gap-5 self-stretch md:px-8 md:justify-center md:items-center md:shrink-0">
+            <div className="flex flex-col gap-5 self-stretch md:px-8 md:justify-center items-center md:shrink-0">
                 <div className="flex py-5 justify-center items-center gap-4 self-stretch">
                     <h1 className="text-3xl md:text-5xl text-center my-5 ">My <span className="font-extrabold">Education</span></h1>
                 </div>
