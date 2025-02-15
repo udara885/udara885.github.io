@@ -5,7 +5,7 @@ import TransitionProvider from "@/components/transitionprovider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-	title: "Portfolio",
+	title: "Udara Lakshan",
 	description: "Animated portfolio",
 }
 
