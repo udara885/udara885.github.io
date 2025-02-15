@@ -1,33 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/*.{js,ts,jsx,tsx}",
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      fontFamily: {
-        arial: ["Arial", "sans-serif"]
-      },
-      textStroke: {
-        '1': '1px',
-        '2': '2px',
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-  plugins: [
-    function ( { addUtilities } )
-    {
-      const newUtilities = {
-        '.text-stroke': {
-          '-webkit-text-stroke-width': '1.4px',
-          '-webkit-text-stroke-color': 'var(--Primary-Black, #000)',
-          'color': 'transparent',
-        },
-      }
-      addUtilities( newUtilities, [ 'responsive', 'hover' ] )
-    },
-  ],
-}
-
+  plugins: [],
+};
